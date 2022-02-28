@@ -17,9 +17,9 @@ CREATE
 (En_Risk:RISKCAT{name: "Environmental Risks"}),
 (Eco_Risk:RISKCAT{name: "Economic Risks"}),
 
-(Risk1:RISK{name:  "BRISK1", Risk_Descrpt:"Falling to the ground during equipment transportation", Risk_pro:0.3,  Risk_imp:0.5,Overall_risk:Medium}),
-(Risk2:RISK{name:  "BRISK2",Risk_Descrpt:"Incorrect installation of drill frame", Risk_pro:0.6,  Risk_imp:0.8,Overall_risk:High}),
-(Risk3:RISK{name:  "BRISK3", Risk_Descrpt:"Insufficient insertion depth of the protective tube", Risk_pro:0.3,  Risk_imp:0.1},Overall_risk:low),
+(Risk1:RISK{name:  "BRISK1", Risk_Descrpt:"Falling to the ground during equipment transportation", Risk_pro:0.3,  Risk_imp:0.5,Overall_risk:"Medium"}),
+(Risk2:RISK{name:  "BRISK2",Risk_Descrpt:"Incorrect installation of drill frame", Risk_pro:0.6,  Risk_imp:0.8,Overall_risk:"High"}),
+(Risk3:RISK{name:  "BRISK3", Risk_Descrpt:"Insufficient insertion depth of the protective tube", Risk_pro:0.3,  Risk_imp:0.1,Overall_risk:"low"}),
 (Risk4:RISK{name:  "BRISK4", Risk_Descrpt:"The seam of the protective tube is not dense", Risk_pro:0.3,  Risk_imp:0.5}),
 (Risk5:RISK{name:  "BRISK5", Risk_Descrpt:"The protective tube is inclined and leaking", Risk_pro:0.3,  Risk_imp:0.5}),
 (Risk6:RISK{name:  "BRISK6", Risk_Descrpt:"Unstable water head in the protection tube", Risk_pro:0.3,  Risk_imp:0.5}),
